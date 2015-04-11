@@ -19,8 +19,6 @@
 <%@ Register TagPrefix="dnn" TagName="CONTROLPANEL" Src="~/Admin/Skins/controlpanel.ascx" %>
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
 
-<%@ Register src="../../../../DesktopModules/WebUserControl_001.ascx" tagname="WebUserControl_001" tagprefix="uc1" %>
-
 <dnn:STYLES runat="server" ID="StylesIE7" Name="IE7Minus" StyleSheet="ie7skin.css" Condition="LT IE 8" UseSkinPath="true"/>
 
 <div id="DNN6" class="TwoColLeft">
@@ -49,7 +47,6 @@
 					    <dnn:LANGUAGE runat="server" id="dnnLANGUAGE"  showMenu="False" showLinks="True" />
                     </div>
 			        <div id="SocialMediaPane" runat="server">
-                        <uc1:WebUserControl_001 ID="WebUserControl_0011" runat="server" />
                     </div>
                 </div>
 		    </div>
