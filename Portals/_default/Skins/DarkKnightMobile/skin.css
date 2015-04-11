@@ -220,7 +220,7 @@ input[type=reset]:hover, input[type=submit]:hover
 }
 .dnnPEM-Header
 {
-    margin: 4% 0 0;
+    margin: 0;
     background: #fff;
 }
 .dnnPEM-Header, .dnnPEM-Body, .dnnPEM-Footer
@@ -341,27 +341,27 @@ ul.dnnPEM-GlobalNav li, ul.dnnPEM-SubNav li
 }
 ul.dnnPEM-GlobalNav li.dnnPEM-NavFirst, ul.dnnPEM-GlobalNav li.dnnPEM-NavFirst a:hover, ul.dnnPEM-GlobalNav li.dnnPEM-NavFirst.dnnPEM-NavOn a, ul.dnnPEM-SubNav li.dnnPEM-NavFirst, ul.dnnPEM-SubNav li.dnnPEM-NavFirst a:hover, ul.dnnPEM-SubNav li.dnnPEM-NavFirst.dnnPEM-NavOn a
 {
-    -webkit-border-top-left-radius: 6px;
-    -webkit-border-top-right-radius: 6px;
-    -moz-border-radius-topleft: 6px;
-    -moz-border-radius-topright: 6px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+        -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
-ul.dnnPEM-GlobalNav li.dnnPEM-NavFirst, ul.dnnPEM-GlobalNav li.dnnPEM-NavFirst a:hover, ul.dnnPEM-GlobalNav li.dnnPEM-NavFirst.dnnPEM-NavOn a, ul.dnnPEM-SubNav li.dnnPEM-NavFirst, ul.dnnPEM-SubNav li.dnnPEM-NavFirst a:hover, ul.dnnPEM-SubNav li.dnnPEM-NavFirst.dnnPEM-NavOn a
+ul.dnnPEM-GlobalNav li.dnnPEM-NavLast, ul.dnnPEM-GlobalNav li.dnnPEM-NavLast a:hover, ul.dnnPEM-GlobalNav li.dnnPEM-NavLast.dnnPEM-NavOn a, ul.dnnPEM-SubNav li.dnnPEM-NavLast, ul.dnnPEM-SubNav li.dnnPEM-NavLast a:hover, ul.dnnPEM-SubNav li.dnnPEM-NavLast.dnnPEM-NavOn a
 {
-    -webkit-border-bottom-left-radius: 6px;
-    -webkit-border-bottom-top-radius: 6px;
-    -moz-border-radius-bottomleft: 6px;
-    -moz-border-radius-tbottomright: 6px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 ul.dnnPEM-GlobalNav li a, ul.dnnPEM-SubNav li a
 {
-    font-family: Arial;
+    font-family: Droid Sans, Helvetica, Arial, sans-serif;
     color: #e6e6e6;
-    font-size: 16px;
+    font-size: 1.4em;
     text-decoration: none;
     text-shadow: 0 1px 1px #000;
     font-weight: normal;
@@ -862,8 +862,8 @@ h2.ToggledContentContTitle .Head
         display: block;
         width: auto;
         height: 100%;
-        padding: 0 1em;
-        margin-right: 10px;
+        padding: 0 ;
+        margin-right: 0px;
         line-height: 2.4em;
     }
     ul.dnnPEM-GlobalNav li.hasChild a
@@ -886,7 +886,7 @@ h2.ToggledContentContTitle .Head
         color: #275292;
         text-decoration: none;
         padding-left: 38px;
-        padding-right: 15px;
+        padding-right: 10px;
         text-shadow: 0 1px 1px #000;
     }
     ul.dnnPEM-GlobalNav li.hasChild a:hover, ul.dnnPEM-GlobalNav li.hasChild.dnnPEM-NavOn a
