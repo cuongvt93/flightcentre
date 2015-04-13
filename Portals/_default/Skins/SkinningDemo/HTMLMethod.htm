@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link id="skin_css" href="skin.css" type="text/css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <!-- Menu Skinobject -->
+    <div id="Menu">
+        <object id="dnnNAV" codetype="dotnetnuke/server" codebase="NAV">
+            <param name="ProviderName" value="DNNMenuNavigationProvider" />
+            <param name="ControlOrientation" value="Horizontal" />
+            <param name="CSSNodeRoot" value="main_dnnmenu_rootitem" />
+            <param name="CSSNodeHoverRoot" value="main_dnnmenu_rootitem_hover" />
+            <param name="CSSNodeSelectedRoot" value="main_dnnmenu_rootitem_selected" />
+            <param name="CSSBreadCrumbRoot" value="main_dnnmenu_rootitem_selected" />
+            <param name="CSSContainerSub" value="main_dnnmenu_submenu" />
+            <param name="CSSNodeHoverSub" value="main_dnnmenu_itemhover" />
+            <param name="CSSNodeSelectedSub" value="main_dnnmenu_itemselected" />
+            <param name="CSSContainerRoot" value="main_dnnmenu_container" />
+            <param name="CSSControl" value="main_dnnmenu_bar" />
+            <param name="CSSBreak" value="main_dnnmenu_break" />
+        </object>
+    </div>
+    <!-- User and Login Skinobjects -->
+    <div id="User">
+        <object id="dnnUSER" codetype="dotnetnuke/server" codebase="USER">
+        </object>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <object id="dnnLOGIN" codetype="dotnetnuke/server" codebase="LOGIN">
+        </object>
+    </div>
+    <!-- ContentPane Skinobject -->
+    <object id="ContentPane" codetype="dotnetnuke/server" codebase="CONTENTPANE">
+    </object>
+</body>
+</html>
