@@ -1,0 +1,70 @@
+/*--------- dnn menu style ----------*/
+/* main menu td */
+.main_dnnmenu_bar
+{
+cursor:pointer;
+font-size: 11px;
+background-color:transparent;
+}
+/* Main Menu Normal */
+.main_dnnmenu_rootitem
+{
+color: #43494D;
+font-size: 13px;
+font-weight:bold;
+text-align:center;
+line-height:40px;
+padding:12px 12px 12px 12px;
+text-transform:uppercase; margin-right:1px;
+}
+/* Main menu hover */
+.main_dnnmenu_rootitem_hover
+{
+color:#CE0D0D;
+font-size: 13px;
+font-weight:bold;
+text-align:center;
+line-height:40px;
+padding:12px 12px 12px 12px;
+text-transform:uppercase; margin-right:1px;
+}
+/* Main menu selected */
+.main_dnnmenu_rootitem_selected
+{
+color:#CE0D0D;
+font-weight:bold;
+text-align:center;
+font-size: 13px;
+line-height:40px;
+padding:12px 12px 12px 12px;
+text-transform:uppercase; margin-right:1px;
+}
+/* SUB Menu Normal */
+.main_dnnmenu_submenu
+{
+border:1px solid #C0D6E5;
+}
+.main_dnnmenu_submenu td
+{
+background-color:#E1E8ED;
+z-index: 1000;
+font-size: 11px;
+font-weight:bold;
+text-align:left;
+color:#000000;
+line-height:2em;
+padding: 0px 5px;
+margin:0px;
+}
+/* SUB Menu hover & selected */
+.main_dnnmenu_itemhover td,.main_dnnmenu_itemselected td
+{
+font-size: 11px;
+background: #CE0D0D;
+color:#ffffff;
+font-weight:bold;
+text-align:left;
+line-height:2em;z-index: 1000;
+padding: 0px 5px;
+margin:0px;
+}
